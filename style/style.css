@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: white;
+}
+.navbar {
+    background-color: rgb(66, 66, 182);
+    color: white;
+    padding: 12px;
+
+}
+.navbar__menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar__item{
+    padding: 12px;
+    font-size: 23px;
+}
+.navbar__item img{
+    height: 60px;
+    border-radius: 12px;
+}
+.navbar__item img:hover{
+    filter: saturate(20);
+}
+
+.navbar__link{
+    color: white;
+    text-decoration: none;
+}
+.navbar__link:hover{
+    color: black;
+}
+.acs{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.acs__container{
+    display: flex;
+    letter-spacing: 2px;
+    margin: 30px;
+    align-items: center;
+    flex-direction: column;
+}
+.acs__intro{
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 20px;
+}
+.acs img{
+    width: 50%;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    
+}
+.acs__caption{
+    font-size:15px ;
+    margin-bottom: 25px;
+}
+.fichajes{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 35px;
+    flex-wrap: wrap;
+}
+.fichajes__item{
+    margin: 12px;
+    height: 250px;
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+}
+.fichajes__title{
+    background: white;
+    color: black;
+    padding: 5px;
+    font-size: 18px;
+}
+.fichajes__item img{
+    margin: 10px;
+    width: 100%;
+    height: 80%;
+}
+.fichajes__caption{
+    font-size: 10px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+
+}
+.section__container{
+    display: flex;
+    text-align: center;
+    margin: 32px;
+    flex-direction:column ;
+    align-items: center;
+}
+.section__intro{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 27px;
+}
+.section__caption{
+    font-size: 17px;
+    margin-bottom: 26px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+footer{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    justify-content: space-around;
+
+}
+.redes{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0px;
+    align-items: center;
+}
+.redes__item{
+    margin: 12px;
+    height: 120px;
+    width: 140px;
+    padding: 5px;
+    text-align: center;
+}
+.redes__caption{
+    font-size: 10px;
+    margin-bottom: 40px;
+    margin-top: -10px;
+    
+
+}
+.redes__item img{
+    margin: 10px;
+    
+    height: 80%;
+}
